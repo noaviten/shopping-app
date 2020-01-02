@@ -12,16 +12,6 @@ const common = css`
   color: ${props => props.theme.colors.primary};
 `;
 
-export const HeaderStyleSection = styled.header`
-  ${common}
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  h1 {
-    margin: 0;
-  }
-`;
-
 export const Image = styled.img`
   ${common}
     height: 18vmin;
@@ -35,6 +25,16 @@ const Nav = styled.nav`
       margin-left: 5px;
       color: ${props => props.theme.colors.primary};
     }
+  }
+`;
+
+export const HeaderStyleSection = styled.header`
+  ${common}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    margin: 0;
   }
 `;
 
